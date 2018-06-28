@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;
+    color: lime;
+    background: black
 }
 
 #mazeDiv {
@@ -10,7 +12,7 @@ body {
     position: absolute; 
     width: 33px; 
     height: 33px; 
-    background: url('chok.png'); 
+    background: url('image.png'); 
     background-size: contain; 
     transition: all 0.1s;
 }
@@ -43,5 +45,5 @@ body {
 }
 
 .W {
-    background: #00356b;
+    background: url('metal2.jpg');
 }
