@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    background: black;
+}
+
+h1 {
+    color: lime;
+}
+
+h3 {
+    color: lime;
+}
+
+#mazeDiv {
+    position: relative;
+}
+
+#avatar {
+    position: absolute; 
+    width: 33px; 
+    height: 33px; 
+    background: url('image.png'); 
+    background-size: contain; 
+    transition: all 0.1s;
+}
+
+#youWonDiv {
+    position: absolute; 
+    left: 50px; 
+    top: 220px; 
+    width: 240px; 
+    height: 250px; 
+    font-size: 50px; 
+    background: lightgray; 
+    text-align: center; 
+    opacity: 0.9;
+}
+
+.hidden {
+    display: none; 
+}
+
+.row {
+    display: flex; 
+    height: 33px;
+}
+
+.cell {
+    width: 33px; 
+    line-height: 33px;
+    text-align: center;
+}
+
+.W {
+    background: url('metal2.jpg'), #00356b;
+}
+
+.O {
+    margin: 1px; 
+    width: 33px;
+    height: 33px; 
+    background: url('end.png');
+}
+
+.crate {
+    position: absolute; 
+    width: 31px; 
+    height: 31px; 
+    margin: 1px; 
+    background: url('barrel2.png'); 
+    opacity: 0.9; 
+    transition: all 0.1s;
+}

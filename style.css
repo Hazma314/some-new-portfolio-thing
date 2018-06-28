@@ -1,0 +1,13 @@
+body {
+    background: black;
+    color: lime;
+    font-family: sans-serif
+}
+
+a {
+    color: yellow
+}
+
+a:active {
+    color: goldenrod
+}

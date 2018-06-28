@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sokoban</title>
+    <link type="text/css" rel="stylesheet" href="maze.css" />
+</head>
+    <body onload="redrawAvatar()">
+        <h1>Sokoban</h1>
+        <h3>Use the arrow keys to move the Hazma.<br>
+            Push the waste barrels over the waste outlets (the red trashcans) to keep the power plant from exploding.</h3>
+        <div id="mazeDiv">
+            <div id="avatar" class="hidden"></div>
+        </div>
+        <div id="youWonDiv" class="hidden">You Kept the Plant From Exploding!</div>
+        <script src="smap.js"></script>
+        <script src="smaze.js"></script>
+    </body>
+</html>
