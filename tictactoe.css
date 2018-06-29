@@ -1,13 +1,23 @@
+body {
+    background: black;
+    color: white;
+    text-align: center
+}
+
 td {
-    border: 1px solid blue;
+    border: 1px solid lime;
     width: 200px;
     height: 200px;
+    text-align: center
 }
 
 td:hover {
-    background: orange;
+    background: green;
 }
 
 table {
     border: 1px solid green;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
 }
